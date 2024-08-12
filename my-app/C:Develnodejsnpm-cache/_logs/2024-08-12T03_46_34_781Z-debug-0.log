@@ -1,0 +1,22 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.7.0
+2 info using node@v22.2.0
+3 silly config:load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config:load:file:/Users/tieirra/React2/React2-Project/my-app/.npmrc
+5 silly config:load:file:/Users/tieirra/.npmrc
+6 silly config:load:file:/usr/local/etc/npmrc
+7 verbose title npm uninstall cra-template
+8 verbose argv "uninstall" "cra-template"
+9 verbose logfile logs-max:10 dir:/Users/tieirra/React2/React2-Project/my-app/C:Develnodejsnpm-cache/_logs/2024-08-12T03_46_34_781Z-
+10 verbose logfile /Users/tieirra/React2/React2-Project/my-app/C:Develnodejsnpm-cache/_logs/2024-08-12T03_46_34_781Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly idealTree buildDeps
+13 silly reify mark retired [
+13 silly reify   '/Users/tieirra/React2/React2-Project/my-app/node_modules/cra-template'
+13 silly reify ]
+14 silly reify moves {
+14 silly reify   '/Users/tieirra/React2/React2-Project/my-app/node_modules/cra-template': '/Users/tieirra/React2/React2-Project/my-app/node_modules/.cra-template-gYWVBwuc'
+14 silly reify }
+15 silly REMOVE node_modules/cra-template
+16 verbose exit 0
+17 info ok

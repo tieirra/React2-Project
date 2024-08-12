@@ -1,0 +1,275 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.7.0
+2 info using node@v22.2.0
+3 silly config:load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config:load:file:/Users/tieirra/.npmrc
+5 silly config:load:file:/usr/local/etc/npmrc
+6 verbose title npm install create-react-app
+7 verbose argv "install" "--global" "create-react-app"
+8 verbose logfile logs-max:10 dir:/Users/tieirra/React2/React2-Project/C:Develnodejsnpm-cache/_logs/2024-08-12T03_43_45_531Z-
+9 verbose logfile /Users/tieirra/React2/React2-Project/C:Develnodejsnpm-cache/_logs/2024-08-12T03_43_45_531Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly idealTree buildDeps
+12 silly fetch manifest create-react-app@*
+13 http fetch GET 200 https://registry.npmjs.org/create-react-app 45ms (cache hit)
+14 silly placeDep ROOT create-react-app@5.0.1 OK for:  want: *
+15 silly fetch manifest chalk@^4.1.2
+16 silly fetch manifest commander@^4.1.1
+17 silly fetch manifest cross-spawn@^7.0.3
+18 http fetch GET 200 https://registry.npmjs.org/chalk 21ms (cache hit)
+19 silly fetch manifest envinfo@^7.8.1
+20 http fetch GET 200 https://registry.npmjs.org/cross-spawn 26ms (cache hit)
+21 silly fetch manifest fs-extra@^10.0.0
+22 http fetch GET 200 https://registry.npmjs.org/commander 35ms (cache hit)
+23 silly fetch manifest hyperquest@^2.1.3
+24 http fetch GET 200 https://registry.npmjs.org/hyperquest 32ms (cache hit)
+25 silly fetch manifest prompts@^2.4.2
+26 http fetch GET 200 https://registry.npmjs.org/fs-extra 80ms (cache hit)
+27 silly fetch manifest semver@^7.3.5
+28 http fetch GET 200 https://registry.npmjs.org/envinfo 91ms (cache hit)
+29 silly fetch manifest tar-pack@^3.4.1
+30 http fetch GET 200 https://registry.npmjs.org/tar-pack 17ms (cache hit)
+31 silly fetch manifest tmp@^0.2.1
+32 http fetch GET 200 https://registry.npmjs.org/prompts 34ms (cache hit)
+33 silly fetch manifest validate-npm-package-name@^3.0.0
+34 http fetch GET 200 https://registry.npmjs.org/semver 34ms (cache hit)
+35 http fetch GET 200 https://registry.npmjs.org/validate-npm-package-name 18ms (cache hit)
+36 http fetch GET 200 https://registry.npmjs.org/tmp 35ms (cache hit)
+37 silly placeDep node_modules/create-react-app chalk@4.1.2 OK for: create-react-app@5.0.1 want: ^4.1.2
+38 silly placeDep node_modules/create-react-app commander@4.1.1 OK for: create-react-app@5.0.1 want: ^4.1.1
+39 silly placeDep node_modules/create-react-app cross-spawn@7.0.3 OK for: create-react-app@5.0.1 want: ^7.0.3
+40 silly placeDep node_modules/create-react-app envinfo@7.13.0 OK for: create-react-app@5.0.1 want: ^7.8.1
+41 silly placeDep node_modules/create-react-app fs-extra@10.1.0 OK for: create-react-app@5.0.1 want: ^10.0.0
+42 silly placeDep node_modules/create-react-app hyperquest@2.1.3 OK for: create-react-app@5.0.1 want: ^2.1.3
+43 silly placeDep node_modules/create-react-app prompts@2.4.2 OK for: create-react-app@5.0.1 want: ^2.4.2
+44 silly placeDep node_modules/create-react-app semver@7.6.3 OK for: create-react-app@5.0.1 want: ^7.3.5
+45 silly placeDep node_modules/create-react-app tar-pack@3.4.1 OK for: create-react-app@5.0.1 want: ^3.4.1
+46 silly placeDep node_modules/create-react-app tmp@0.2.3 OK for: create-react-app@5.0.1 want: ^0.2.1
+47 silly placeDep node_modules/create-react-app validate-npm-package-name@3.0.0 OK for: create-react-app@5.0.1 want: ^3.0.0
+48 silly fetch manifest ansi-styles@^4.1.0
+49 silly fetch manifest supports-color@^7.1.0
+50 silly fetch manifest path-key@^3.1.0
+51 http fetch GET 200 https://registry.npmjs.org/supports-color 14ms (cache hit)
+52 silly fetch manifest shebang-command@^2.0.0
+53 http fetch GET 200 https://registry.npmjs.org/path-key 23ms (cache hit)
+54 silly fetch manifest which@^2.0.1
+55 http fetch GET 200 https://registry.npmjs.org/ansi-styles 26ms (cache hit)
+56 silly fetch manifest graceful-fs@^4.2.0
+57 http fetch GET 200 https://registry.npmjs.org/shebang-command 15ms (cache hit)
+58 silly fetch manifest jsonfile@^6.0.1
+59 http fetch GET 200 https://registry.npmjs.org/which 18ms (cache hit)
+60 silly fetch manifest universalify@^2.0.0
+61 http fetch GET 200 https://registry.npmjs.org/graceful-fs 14ms (cache hit)
+62 silly fetch manifest buffer-from@^0.1.1
+63 http fetch GET 200 https://registry.npmjs.org/jsonfile 15ms (cache hit)
+64 silly fetch manifest duplexer2@~0.0.2
+65 http fetch GET 200 https://registry.npmjs.org/universalify 12ms (cache hit)
+66 silly fetch manifest through2@~0.6.3
+67 http fetch GET 200 https://registry.npmjs.org/buffer-from 13ms (cache hit)
+68 silly fetch manifest kleur@^3.0.3
+69 http fetch GET 200 https://registry.npmjs.org/duplexer2 16ms (cache hit)
+70 silly fetch manifest sisteransi@^1.0.5
+71 http fetch GET 200 https://registry.npmjs.org/through2 16ms (cache hit)
+72 silly fetch manifest debug@^2.2.0
+73 http fetch GET 200 https://registry.npmjs.org/kleur 16ms (cache hit)
+74 silly fetch manifest fstream@^1.0.10
+75 http fetch GET 200 https://registry.npmjs.org/debug 12ms (cache hit)
+76 silly fetch manifest fstream-ignore@^1.0.5
+77 http fetch GET 200 https://registry.npmjs.org/sisteransi 24ms (cache hit)
+78 silly fetch manifest once@^1.3.3
+79 http fetch GET 200 https://registry.npmjs.org/fstream 20ms (cache hit)
+80 silly fetch manifest readable-stream@^2.1.4
+81 http fetch GET 200 https://registry.npmjs.org/fstream-ignore 12ms (cache hit)
+82 silly fetch manifest rimraf@^2.5.1
+83 http fetch GET 200 https://registry.npmjs.org/once 13ms (cache hit)
+84 silly fetch manifest tar@^2.2.1
+85 http fetch GET 200 https://registry.npmjs.org/readable-stream 16ms (cache hit)
+86 silly fetch manifest uid-number@^0.0.6
+87 http fetch GET 200 https://registry.npmjs.org/tar 23ms (cache hit)
+88 silly fetch manifest builtins@^1.0.3
+89 http fetch GET 200 https://registry.npmjs.org/rimraf 32ms (cache hit)
+90 http fetch GET 200 https://registry.npmjs.org/uid-number 21ms (cache hit)
+91 http fetch GET 200 https://registry.npmjs.org/builtins 15ms (cache hit)
+92 silly placeDep node_modules/create-react-app ansi-styles@4.3.0 OK for: chalk@4.1.2 want: ^4.1.0
+93 silly placeDep node_modules/create-react-app supports-color@7.2.0 OK for: chalk@4.1.2 want: ^7.1.0
+94 silly fetch manifest color-convert@^2.0.1
+95 silly fetch manifest has-flag@^4.0.0
+96 http fetch GET 200 https://registry.npmjs.org/has-flag 8ms (cache hit)
+97 http fetch GET 200 https://registry.npmjs.org/color-convert 10ms (cache hit)
+98 silly placeDep node_modules/create-react-app color-convert@2.0.1 OK for: ansi-styles@4.3.0 want: ^2.0.1
+99 silly fetch manifest color-name@~1.1.4
+100 http fetch GET 200 https://registry.npmjs.org/color-name 8ms (cache hit)
+101 silly placeDep node_modules/create-react-app color-name@1.1.4 OK for: color-convert@2.0.1 want: ~1.1.4
+102 silly placeDep node_modules/create-react-app path-key@3.1.1 OK for: cross-spawn@7.0.3 want: ^3.1.0
+103 silly placeDep node_modules/create-react-app shebang-command@2.0.0 OK for: cross-spawn@7.0.3 want: ^2.0.0
+104 silly placeDep node_modules/create-react-app which@2.0.2 OK for: cross-spawn@7.0.3 want: ^2.0.1
+105 silly fetch manifest shebang-regex@^3.0.0
+106 silly fetch manifest isexe@^2.0.0
+107 http fetch GET 200 https://registry.npmjs.org/shebang-regex 9ms (cache hit)
+108 http fetch GET 200 https://registry.npmjs.org/isexe 10ms (cache hit)
+109 silly placeDep node_modules/create-react-app graceful-fs@4.2.11 OK for: fs-extra@10.1.0 want: ^4.2.0
+110 silly placeDep node_modules/create-react-app jsonfile@6.1.0 OK for: fs-extra@10.1.0 want: ^6.0.1
+111 silly placeDep node_modules/create-react-app universalify@2.0.1 OK for: fs-extra@10.1.0 want: ^2.0.0
+112 silly placeDep node_modules/create-react-app buffer-from@0.1.2 OK for: hyperquest@2.1.3 want: ^0.1.1
+113 silly placeDep node_modules/create-react-app duplexer2@0.0.2 OK for: hyperquest@2.1.3 want: ~0.0.2
+114 silly placeDep node_modules/create-react-app through2@0.6.5 OK for: hyperquest@2.1.3 want: ~0.6.3
+115 silly fetch manifest readable-stream@~1.1.9
+116 silly fetch manifest readable-stream@>=1.0.33-1 <1.1.0-0
+117 silly fetch manifest xtend@>=4.0.0 <4.1.0-0
+118 http fetch GET 200 https://registry.npmjs.org/xtend 23ms (cache hit)
+119 silly placeDep node_modules/create-react-app readable-stream@1.1.14 OK for: duplexer2@0.0.2 want: ~1.1.9
+120 silly fetch manifest core-util-is@~1.0.0
+121 silly fetch manifest isarray@0.0.1
+122 silly fetch manifest string_decoder@~0.10.x
+123 http fetch GET 200 https://registry.npmjs.org/string_decoder 11ms (cache hit)
+124 silly fetch manifest inherits@~2.0.1
+125 http fetch GET 200 https://registry.npmjs.org/core-util-is 24ms (cache hit)
+126 http fetch GET 200 https://registry.npmjs.org/isarray 26ms (cache hit)
+127 http fetch GET 200 https://registry.npmjs.org/inherits 10ms (cache hit)
+128 silly placeDep node_modules/create-react-app kleur@3.0.3 OK for: prompts@2.4.2 want: ^3.0.3
+129 silly placeDep node_modules/create-react-app sisteransi@1.0.5 OK for: prompts@2.4.2 want: ^1.0.5
+130 silly placeDep node_modules/create-react-app core-util-is@1.0.3 OK for: readable-stream@1.1.14 want: ~1.0.0
+131 silly placeDep node_modules/create-react-app inherits@2.0.4 OK for: readable-stream@1.1.14 want: ~2.0.1
+132 silly placeDep node_modules/create-react-app isarray@0.0.1 OK for: readable-stream@1.1.14 want: 0.0.1
+133 silly placeDep node_modules/create-react-app string_decoder@0.10.31 OK for: readable-stream@1.1.14 want: ~0.10.x
+134 silly placeDep node_modules/create-react-app shebang-regex@3.0.0 OK for: shebang-command@2.0.0 want: ^3.0.0
+135 silly placeDep node_modules/create-react-app has-flag@4.0.0 OK for: supports-color@7.2.0 want: ^4.0.0
+136 silly placeDep node_modules/create-react-app debug@2.6.9 OK for: tar-pack@3.4.1 want: ^2.2.0
+137 silly placeDep node_modules/create-react-app fstream@1.0.12 OK for: tar-pack@3.4.1 want: ^1.0.10
+138 silly placeDep node_modules/create-react-app fstream-ignore@1.0.5 OK for: tar-pack@3.4.1 want: ^1.0.5
+139 silly placeDep node_modules/create-react-app once@1.4.0 OK for: tar-pack@3.4.1 want: ^1.3.3
+140 silly placeDep node_modules/create-react-app/node_modules/tar-pack readable-stream@2.3.8 OK for: tar-pack@3.4.1 want: ^2.1.4
+141 silly placeDep node_modules/create-react-app rimraf@2.7.1 OK for: tar-pack@3.4.1 want: ^2.5.1
+142 silly placeDep node_modules/create-react-app tar@2.2.2 OK for: tar-pack@3.4.1 want: ^2.2.1
+143 silly placeDep node_modules/create-react-app uid-number@0.0.6 OK for: tar-pack@3.4.1 want: ^0.0.6
+144 silly fetch manifest ms@2.0.0
+145 silly fetch manifest mkdirp@>=0.5 0
+146 silly fetch manifest rimraf@2
+147 silly fetch manifest minimatch@^3.0.0
+148 http fetch GET 200 https://registry.npmjs.org/mkdirp 14ms (cache hit)
+149 silly fetch manifest wrappy@1
+150 http fetch GET 200 https://registry.npmjs.org/minimatch 19ms (cache hit)
+151 silly fetch manifest isarray@~1.0.0
+152 silly fetch manifest process-nextick-args@~2.0.0
+153 http fetch GET 200 https://registry.npmjs.org/ms 31ms (cache hit)
+154 silly fetch manifest safe-buffer@~5.1.1
+155 http fetch GET 200 https://registry.npmjs.org/wrappy 33ms (cache hit)
+156 silly fetch manifest string_decoder@~1.1.1
+157 silly fetch manifest util-deprecate@~1.0.1
+158 http fetch GET 200 https://registry.npmjs.org/process-nextick-args 27ms (cache hit)
+159 silly fetch manifest glob@^7.1.3
+160 http fetch GET 200 https://registry.npmjs.org/safe-buffer 25ms (cache hit)
+161 silly fetch manifest block-stream@*
+162 http fetch GET 200 https://registry.npmjs.org/util-deprecate 32ms (cache hit)
+163 http fetch GET 200 https://registry.npmjs.org/block-stream 33ms (cache hit)
+164 http fetch GET 200 https://registry.npmjs.org/glob 38ms (cache hit)
+165 silly placeDep node_modules/create-react-app ms@2.0.0 OK for: debug@2.6.9 want: 2.0.0
+166 silly placeDep node_modules/create-react-app mkdirp@0.5.6 OK for: fstream@1.0.12 want: >=0.5 0
+167 silly fetch manifest minimist@^1.2.6
+168 http fetch GET 200 https://registry.npmjs.org/minimist 7ms (cache hit)
+169 silly placeDep node_modules/create-react-app minimatch@3.1.2 OK for: fstream-ignore@1.0.5 want: ^3.0.0
+170 silly fetch manifest brace-expansion@^1.1.7
+171 http fetch GET 200 https://registry.npmjs.org/brace-expansion 10ms (cache hit)
+172 silly placeDep node_modules/create-react-app brace-expansion@1.1.11 OK for: minimatch@3.1.2 want: ^1.1.7
+173 silly fetch manifest balanced-match@^1.0.0
+174 silly fetch manifest concat-map@0.0.1
+175 http fetch GET 200 https://registry.npmjs.org/concat-map 7ms (cache hit)
+176 http fetch GET 200 https://registry.npmjs.org/balanced-match 9ms (cache hit)
+177 silly placeDep node_modules/create-react-app balanced-match@1.0.2 OK for: brace-expansion@1.1.11 want: ^1.0.0
+178 silly placeDep node_modules/create-react-app concat-map@0.0.1 OK for: brace-expansion@1.1.11 want: 0.0.1
+179 silly placeDep node_modules/create-react-app minimist@1.2.8 OK for: mkdirp@0.5.6 want: ^1.2.6
+180 silly placeDep node_modules/create-react-app wrappy@1.0.2 OK for: once@1.4.0 want: 1
+181 silly placeDep node_modules/create-react-app glob@7.2.3 OK for: rimraf@2.7.1 want: ^7.1.3
+182 silly fetch manifest inflight@^1.0.4
+183 silly fetch manifest fs.realpath@^1.0.0
+184 silly fetch manifest path-is-absolute@^1.0.0
+185 http fetch GET 200 https://registry.npmjs.org/fs.realpath 8ms (cache hit)
+186 http fetch GET 200 https://registry.npmjs.org/path-is-absolute 9ms (cache hit)
+187 http fetch GET 200 https://registry.npmjs.org/inflight 10ms (cache hit)
+188 silly placeDep node_modules/create-react-app fs.realpath@1.0.0 OK for: glob@7.2.3 want: ^1.0.0
+189 silly placeDep node_modules/create-react-app inflight@1.0.6 OK for: glob@7.2.3 want: ^1.0.4
+190 silly placeDep node_modules/create-react-app path-is-absolute@1.0.1 OK for: glob@7.2.3 want: ^1.0.0
+191 silly placeDep node_modules/create-react-app block-stream@0.0.9 OK for: tar@2.2.2 want: *
+192 silly placeDep node_modules/create-react-app/node_modules/through2 readable-stream@1.0.34 OK for: through2@0.6.5 want: >=1.0.33-1 <1.1.0-0
+193 silly placeDep node_modules/create-react-app xtend@4.0.2 OK for: through2@0.6.5 want: >=4.0.0 <4.1.0-0
+194 silly placeDep node_modules/create-react-app builtins@1.0.3 OK for: validate-npm-package-name@3.0.0 want: ^1.0.3
+195 silly placeDep node_modules/create-react-app isexe@2.0.0 OK for: which@2.0.2 want: ^2.0.0
+196 silly placeDep node_modules/create-react-app/node_modules/tar-pack isarray@1.0.0 OK for: readable-stream@2.3.8 want: ~1.0.0
+197 silly placeDep node_modules/create-react-app process-nextick-args@2.0.1 OK for: readable-stream@2.3.8 want: ~2.0.0
+198 silly placeDep node_modules/create-react-app safe-buffer@5.1.2 OK for: readable-stream@2.3.8 want: ~5.1.1
+199 silly placeDep node_modules/create-react-app/node_modules/tar-pack string_decoder@1.1.1 OK for: readable-stream@2.3.8 want: ~1.1.1
+200 silly placeDep node_modules/create-react-app util-deprecate@1.0.2 OK for: readable-stream@2.3.8 want: ~1.0.1
+201 silly reify moves {}
+202 warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+203 warn deprecated fstream-ignore@1.0.5: This package is no longer supported.
+204 warn deprecated uid-number@0.0.6: This package is no longer supported.
+205 warn deprecated rimraf@2.7.1: Rimraf versions prior to v4 are no longer supported
+206 warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+207 warn deprecated fstream@1.0.12: This package is no longer supported.
+208 warn deprecated tar@2.2.2: This version of tar is no longer supported, and will not receive security updates. Please upgrade asap.
+209 silly ADD node_modules/create-react-app
+210 silly ADD node_modules/create-react-app/node_modules/util-deprecate
+211 silly ADD node_modules/create-react-app/node_modules/safe-buffer
+212 silly ADD node_modules/create-react-app/node_modules/process-nextick-args
+213 silly ADD node_modules/create-react-app/node_modules/isexe
+214 silly ADD node_modules/create-react-app/node_modules/builtins
+215 silly ADD node_modules/create-react-app/node_modules/xtend
+216 silly ADD node_modules/create-react-app/node_modules/block-stream
+217 silly ADD node_modules/create-react-app/node_modules/path-is-absolute
+218 silly ADD node_modules/create-react-app/node_modules/inflight
+219 silly ADD node_modules/create-react-app/node_modules/fs.realpath
+220 silly ADD node_modules/create-react-app/node_modules/glob
+221 silly ADD node_modules/create-react-app/node_modules/wrappy
+222 silly ADD node_modules/create-react-app/node_modules/minimist
+223 silly ADD node_modules/create-react-app/node_modules/concat-map
+224 silly ADD node_modules/create-react-app/node_modules/balanced-match
+225 silly ADD node_modules/create-react-app/node_modules/brace-expansion
+226 silly ADD node_modules/create-react-app/node_modules/minimatch
+227 silly ADD node_modules/create-react-app/node_modules/mkdirp
+228 silly ADD node_modules/create-react-app/node_modules/ms
+229 silly ADD node_modules/create-react-app/node_modules/uid-number
+230 silly ADD node_modules/create-react-app/node_modules/tar
+231 silly ADD node_modules/create-react-app/node_modules/rimraf
+232 silly ADD node_modules/create-react-app/node_modules/once
+233 silly ADD node_modules/create-react-app/node_modules/fstream-ignore
+234 silly ADD node_modules/create-react-app/node_modules/fstream
+235 silly ADD node_modules/create-react-app/node_modules/debug
+236 silly ADD node_modules/create-react-app/node_modules/has-flag
+237 silly ADD node_modules/create-react-app/node_modules/shebang-regex
+238 silly ADD node_modules/create-react-app/node_modules/string_decoder
+239 silly ADD node_modules/create-react-app/node_modules/isarray
+240 silly ADD node_modules/create-react-app/node_modules/inherits
+241 silly ADD node_modules/create-react-app/node_modules/core-util-is
+242 silly ADD node_modules/create-react-app/node_modules/sisteransi
+243 silly ADD node_modules/create-react-app/node_modules/kleur
+244 silly ADD node_modules/create-react-app/node_modules/readable-stream
+245 silly ADD node_modules/create-react-app/node_modules/through2
+246 silly ADD node_modules/create-react-app/node_modules/through2/node_modules/readable-stream
+247 silly ADD node_modules/create-react-app/node_modules/duplexer2
+248 silly ADD node_modules/create-react-app/node_modules/buffer-from
+249 silly ADD node_modules/create-react-app/node_modules/universalify
+250 silly ADD node_modules/create-react-app/node_modules/jsonfile
+251 silly ADD node_modules/create-react-app/node_modules/graceful-fs
+252 silly ADD node_modules/create-react-app/node_modules/which
+253 silly ADD node_modules/create-react-app/node_modules/shebang-command
+254 silly ADD node_modules/create-react-app/node_modules/path-key
+255 silly ADD node_modules/create-react-app/node_modules/color-name
+256 silly ADD node_modules/create-react-app/node_modules/color-convert
+257 silly ADD node_modules/create-react-app/node_modules/supports-color
+258 silly ADD node_modules/create-react-app/node_modules/ansi-styles
+259 silly ADD node_modules/create-react-app/node_modules/validate-npm-package-name
+260 silly ADD node_modules/create-react-app/node_modules/tmp
+261 silly ADD node_modules/create-react-app/node_modules/tar-pack
+262 silly ADD node_modules/create-react-app/node_modules/tar-pack/node_modules/string_decoder
+263 silly ADD node_modules/create-react-app/node_modules/tar-pack/node_modules/isarray
+264 silly ADD node_modules/create-react-app/node_modules/tar-pack/node_modules/readable-stream
+265 silly ADD node_modules/create-react-app/node_modules/semver
+266 silly ADD node_modules/create-react-app/node_modules/prompts
+267 silly ADD node_modules/create-react-app/node_modules/hyperquest
+268 silly ADD node_modules/create-react-app/node_modules/fs-extra
+269 silly ADD node_modules/create-react-app/node_modules/envinfo
+270 silly ADD node_modules/create-react-app/node_modules/cross-spawn
+271 silly ADD node_modules/create-react-app/node_modules/commander
+272 silly ADD node_modules/create-react-app/node_modules/chalk
+273 verbose exit 0
+274 info ok

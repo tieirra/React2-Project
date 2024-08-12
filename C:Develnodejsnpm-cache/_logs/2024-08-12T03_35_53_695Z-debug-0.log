@@ -1,0 +1,33 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.7.0
+2 info using node@v22.2.0
+3 silly config:load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config:load:file:/Users/tieirra/.npmrc
+5 silly config:load:file:/usr/local/etc/npmrc
+6 verbose title npm i
+7 verbose argv "i"
+8 verbose logfile logs-max:10 dir:/Users/tieirra/React2/React2-Project/C:Develnodejsnpm-cache/_logs/2024-08-12T03_35_53_695Z-
+9 verbose logfile /Users/tieirra/React2/React2-Project/C:Develnodejsnpm-cache/_logs/2024-08-12T03_35_53_695Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly idealTree buildDeps
+12 silly fetch manifest typescript@^3.2.1 || ^4
+13 http fetch GET 200 https://registry.npmjs.org/typescript 1131ms (cache miss)
+14 silly placeDep ROOT typescript@4.9.5 REPLACE for: react-scripts@5.0.1 want: ^3.2.1 || ^4
+15 silly reify mark retired [
+15 silly reify   '/Users/tieirra/node_modules/typescript',
+15 silly reify   '/Users/tieirra/node_modules/.bin/tsc',
+15 silly reify   '/Users/tieirra/node_modules/.bin/tsserver'
+15 silly reify ]
+16 silly reify moves {
+16 silly reify   '/Users/tieirra/node_modules/typescript': '/Users/tieirra/node_modules/.typescript-E2HyW9xj',
+16 silly reify   '/Users/tieirra/node_modules/.bin/tsc': '/Users/tieirra/node_modules/.bin/.tsc-rB7h88To',
+16 silly reify   '/Users/tieirra/node_modules/.bin/tsserver': '/Users/tieirra/node_modules/.bin/.tsserver-bOmOPwWP'
+16 silly reify }
+17 silly tarball no local data for typescript@https://registry.npmjs.org/typescript/-/typescript-4.9.5.tgz. Extracting by manifest.
+18 silly tarball no local data for fsevents@https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz. Extracting by manifest.
+19 http fetch GET 200 https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz 268ms (cache miss)
+20 http fetch GET 200 https://registry.npmjs.org/typescript/-/typescript-4.9.5.tgz 1299ms (cache miss)
+21 silly ADD node_modules/fsevents
+22 silly CHANGE node_modules/typescript
+23 verbose exit 0
+24 info ok
