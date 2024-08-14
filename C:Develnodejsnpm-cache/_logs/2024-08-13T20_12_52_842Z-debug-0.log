@@ -1,0 +1,37 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.7.0
+2 info using node@v22.2.0
+3 silly config:load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config:load:file:/Users/tieirra/.npmrc
+5 silly config:load:file:/usr/local/etc/npmrc
+6 verbose title npm start
+7 verbose argv "start"
+8 verbose logfile logs-max:10 dir:/Users/tieirra/React2/React2-Project/C:Develnodejsnpm-cache/_logs/2024-08-13T20_12_52_842Z-
+9 verbose logfile /Users/tieirra/React2/React2-Project/C:Develnodejsnpm-cache/_logs/2024-08-13T20_12_52_842Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly logfile done cleaning log files
+12 verbose stack Error: Missing script: "start"
+12 verbose stack
+12 verbose stack Did you mean one of these?
+12 verbose stack   npm star # Mark your favorite packages
+12 verbose stack   npm stars # View packages marked as favorites
+12 verbose stack
+12 verbose stack To see a list of scripts, run:
+12 verbose stack   npm run
+12 verbose stack     at RunScript.run (/usr/local/lib/node_modules/npm/lib/commands/run-script.js:79:13)
+12 verbose stack     at async module.exports (/usr/local/lib/node_modules/npm/lib/cli/entry.js:74:5)
+13 verbose cwd /Users/tieirra/React2/React2-Project
+14 verbose Darwin 21.2.0
+15 verbose node v22.2.0
+16 verbose npm  v10.7.0
+17 error Missing script: "start"
+17 error
+17 error Did you mean one of these?
+17 error   npm star # Mark your favorite packages
+17 error   npm stars # View packages marked as favorites
+17 error
+17 error To see a list of scripts, run:
+17 error   npm run
+18 verbose exit 1
+19 verbose code 1
+20 error A complete log of this run can be found in: /Users/tieirra/React2/React2-Project/C:Develnodejsnpm-cache/_logs/2024-08-13T20_12_52_842Z-debug-0.log
