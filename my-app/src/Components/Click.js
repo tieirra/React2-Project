@@ -1,5 +1,5 @@
 import React , { Component } from 'react';
-
+import Updatecomp from './HigherOrder';
 
  export class Click extends Component {
 
@@ -18,10 +18,10 @@ import React , { Component } from 'react';
         return (
         <div>
         <p> I am buying myself flowerers this week 🌹 </p>
-        <button onClick= {this.UpdateClick}>Click {count}  time </button>
+        <button onClick= {this.UpdateClick}> {this.props.name} Click {count}  time </button>
         </div>
        );
     }
 }
 
-export default Click;
+export default Updatecomp(Click);
